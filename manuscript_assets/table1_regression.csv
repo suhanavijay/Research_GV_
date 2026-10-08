@@ -1,0 +1,9 @@
+Model,Predictor,Log_Odds,Std_Error,OR (95% CI),p-value,ICC
+Population GLM,Intercept,-0.362,0.008,"0.696 [0.685, 0.707]",< 0.001,
+Population GLM,Transition Rate (Scaled),0.07,0.008,"1.073 [1.056, 1.090]",< 0.001,
+Population GLM,Shannon Entropy (Scaled),-0.058,0.009,"0.944 [0.928, 0.959]",< 0.001,
+Population GLM,Intrinsic Volatility (Scaled),1.074,0.012,"2.928 [2.861, 2.996]",< 0.001,
+Mixed-Effects GLMM,Intercept,-16.975,5.155,"0.000 [0.000, 0.001]",< 0.001,0.9997
+Mixed-Effects GLMM,Transition Rate (Scaled),0.089,5.23,"1.093 [0.000, 30938.271]",0.986,0.9997
+Mixed-Effects GLMM,Shannon Entropy (Scaled),-0.032,1.017,"0.969 [0.132, 7.103]",0.975,0.9997
+Mixed-Effects GLMM,Intrinsic Volatility (Scaled),0.875,2.099,"2.398 [0.039, 146.689]",0.677,0.9997
